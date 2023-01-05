@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UT-8">
+    <title>Cotizador</title>   
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>Cotizador de envíos</h1>
+        <img src="https://www.sinmaletas.com/_img/es_medidas-caja.jpg?v=60">
+        <div class="container">
+           <form action="">
+            <div>
+                <label for="weight">Peso (Lbs):</label>
+                <input type="text" id="weight">
+            </div>
+            <div>
+                <label for="wide">Ancho (Cm):</label>
+                <input type="text" id="wide">
+            </div>
+            <div>
+                <label for="heigh">Alto (Cm):</label>
+                <input type="text" id="heigh">
+            </div>
+            <div>
+                <label for="long">Largo (Cm):</label>
+                <input type="text" id="long">
+            </div>
+            <div>
+                <label for="country">País destino(seleccione continente):</label>
+                <select>
+                    <option>Asia</option><option>África</option><option>América del Norte</option><option>América Central</option><option>América del Sur</option><option>Antártida</option><option>Europa</option><option>Oceanía</option>                </select>
+            </div>
+            <div>
+                <label for="homecountry">País de Origen:</label>
+                <select>
+                    <option>Guatemala</option>
+                </select>
+            </div>
+            <div>
+                <label for="idcostumer">ID Cliente:</label>
+                <input type="text" id="idcostumer">
+            </div>
+            <div>
+                <input type="submit" value="COTIZAR ENVÍO">
+            </div>
+           </form> 
+           <div class="col-md-4 text-center"></div>
+           <div class="valor_envio" style="font-size: 20px; color: white"; align="text-center"> 
+            <strong> Valor envío: </strong>
+            <strong id="value" style="font-size: 20px; color: white"; align="text-center">$ 0.00</strong>
+            </div>
+           </div>
+           <div class="descuento" style="font-size: 20px; color: white"; align="text-center"> 
+            <strong> Descuento Cliente: </strong>
+            <strong id="descount" style="font-size: 20px; color: white"; align="text-center">$ 0.00</strong>
+            </div>
+            <div class="totalenviodescuento" style="font-size: 20px; color: white"; align="text-center"> 
+                <strong> Total de envío (con descuento): </strong>
+                <strong id="envio" style="font-size: 20px; color: white"; align="text-center">$ 0.00</strong>
+                </div>
+           </div>
+        </div>
+    </body>
+</html>

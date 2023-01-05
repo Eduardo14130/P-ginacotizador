@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/809/970/large_2x/dark-orange-colorful-blur-backdrop-shining-colorful-illustration-in-blur-style-design-for-landing-pages-vector.jpg);
+    text-align: left;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: whitesmoke;
+    font-style: oblique;
+}
+img {
+    float: right;
+    width: 400x;
+    height: 400px;
+    margin: 10%;
+    display: flex;
+}
+form {
+    width: 35%;
+    border: 1px groove #ff9800;
+    margin: 20px;
+    padding: 20px;
+    font-style: italic;
+}
+label { 
+    font-size: 18px;
+    display: block;
+    width: 100%; 
+    color: white;
+}
+input, textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+input:focus, textarea:focus {
+    border: 1px solid #1668c4;
+}
+input[type="submit"] {
+    margin-bottom: 0;
+    background: orange;
+    border: none;
+}
+input[type="submit"]:hover {
+    background: orangered;
+}
+strong {
+    font-size: 20px;
+    width: 80%;
+    color: white;
+    display: block;
+    padding: 15px
+}
+select {
+    font-size: 17px;
+    display: block;
+    width: 100%; 
+    color: black;
+}
